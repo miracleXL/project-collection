@@ -2,6 +2,8 @@
 
 有趣但一般没用，或者有潜力但目前尚不可用
 
+[项目收集](./README.md) · [学习科研](./Study.md) · [视频](./Video.md) · 有趣的
+
 * [better-chat](https://github.com/XC0703/better-chat) - 【仿照微信的局域网实时聊天工具，基于Web】
 * [Pake](https://github.com/tw93/Pake) - 🤱🏻 Turn any webpage into a desktop app with Rust. 🤱🏻 利用 Rust 轻松构建轻量级多端桌面应用【把Web页面变成客户端】
 * [tesseract](https://github.com/tesseract-ocr/tesseract) - Tesseract Open Source OCR Engine (main repository)

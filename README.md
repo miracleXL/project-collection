@@ -4,7 +4,7 @@
 
 项目收集 · [学习科研](./Study.md) · [视频](./Video.md) · [有趣的](./Interesting.md)
 
-[toc]
+[!TOC]
 
 ## 项目收集
 

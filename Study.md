@@ -2,7 +2,9 @@
 
 编程相关项目代码与链接。
 
-[toc]
+[项目收集](./README.md) · 学习科研 · [视频](./Video.md) · [有趣的](./Interesting.md)
+
+[!TOC]
 
 ## 编程基础
 
