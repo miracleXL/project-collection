@@ -1,12 +1,61 @@
 # Project Collection
 
-自用，主要收集一些自己喜欢的开源项目。
+自用，主要收集一些自己喜欢的开源项目。支持多类型终端的会在每处都会写一遍。
 
 项目收集 · [学习科研](./Study.md) · [视频](./Video.md) · [有趣的](./Interesting.md)
 
-[!TOC]
+## 目录
+
+* [项目收集](#项目收集)
+* [编程参考](#编程参考)
+  * [素材库](#素材库)
+  * [环境依赖](#环境依赖)
+  * [文档 API](#文档-api)
+* [桌面端软件程序](#桌面端软件程序)
+  * [操作系统相关](#操作系统相关)
+  * [日常办公](#日常办公)
+  * [图像影音](#图像影音)
+  * [下载工具](#下载工具)
+* [移动端应用程序](#移动端应用程序)
+  * [玩机](#玩机)
+  * [音乐视频漫画](#音乐视频漫画)
+  * [图片浏览](#图片浏览)
+* [电视端应用程序](#电视端应用程序)
+* [扩展插件](#扩展插件)
+  * [Xposed框架](#xposed框架)
+  * [Chromium内核浏览器](#chromium内核浏览器)
+  * [Firefox浏览器](#firefox浏览器)
+  * [油猴脚本](#油猴脚本)
+  * [VSCode](#vscode)
+* [游戏工具](#游戏工具)
+  * [游戏](#游戏)
+  * [机翻工具](#机翻工具)
+  * [拆包工具](#拆包工具)
+* [服务端应用](#服务端应用)
+  * [个人导航](#个人导航)
+  * [管理工具](#管理工具)
+  * [个人网站](#个人网站)
+  * [文件存储](#文件存储)
+  * [离线下载](#离线下载)
+  * [相册](#相册)
+  * [音乐](#音乐)
+  * [书籍](#书籍)
+  * [视频](#视频)
+    * [直播源](#直播源)
+  * [漫画与图片板](#漫画与图片板)
+  * [Web 工具](#web-工具)
+  * [大型玩具](#大型玩具)
+* [Raspberry Pi](#raspberry-pi)
+* [科学上网](#科学上网)
+  * [路由](#路由)
+  * [内网穿透](#内网穿透)
+  * [异地组网](#异地组网)
+  * [代理](#代理)
+* [Github的奇怪用法](#github的奇怪用法)
 
 ## 项目收集
+
+**[`^        back to top        ^`](#project-collection)**
 
 各类收集整理项目列表的项目
 
@@ -19,122 +68,188 @@
 * [chinese-dos-games](https://github.com/rwv/chinese-dos-games) - 【中文DOS游戏收集】
 * [cook](https://github.com/YunYouJun/cook) - 好的，今天我们来做菜！OK, Let's Cook!【学做饭】
 
-## 软件应用
+## 编程参考
 
-### 跨平台
+### 素材库
 
-一般为跨 PC 平台，同时支持手机的会以 `apk`指出
+**[`^        back to top        ^`](#project-collection)**
 
-#### 音视频软件
+* [MaterialDesignInXamlToolkit](https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit) - Google's Material Design in XAML & WPF, for C# & VB .Net
+* [Free-Chinese-Fonts](https://github.com/zenozeng/Free-Chinese-Fonts) - 免费中文字体
+* [Sarasa-Gothic](https://github.com/be5invis/Sarasa-Gothic) - Sarasa Gothic / 更纱黑体 / 更紗黑體 / 更紗ゴシック / 사라사 고딕【字体】
+* [dashboard-icons](https://github.com/walkxcode/dashboard-icons) - The best source for dashboard icons.【仪表盘图标】
 
-* [xbmc](https://github.com/xbmc/xbmc) - Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media.【已改名 Kodi，全平台多功能播放器，可刷为电视系统】`apk`
-* [miru-app](https://github.com/miru-project/miru-app) - A versatile application that is free, open-source, and supports extension sources for videos, comics, and novels, available on Android, Windows, and Web platforms.【视频、小说、漫画整合】`apk`
-* [miru](https://github.com/ThaUnknown/miru) - Bittorrent streaming software for cats. Stream anime torrents, real-time with no waiting for downloads.【通过BT实时在线播放动画】
-* [Kazumi](https://github.com/Predidit/Kazumi) - 基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕。
-  * [KazumiRules](https://github.com/Predidit/KazumiRules) - Kazumi的规则托管仓库
-* [lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) - 一个基于 electron 的音乐软件【洛雪音乐助手桌面版】（[document](https://lyswhut.github.io/lx-music-doc/)，网盘下载 [https://www.lanzoui.com/b0bf2cfa/](https://www.lanzoui.com/b0bf2cfa/) 密码：`glqw`）
+### 环境依赖
 
-#### 下载工具
+**[`^        back to top        ^`](#project-collection)**
 
-* [Motrix](https://github.com/agalwood/Motrix) - A full-featured download manager.【什么都能下，但是很久没维护了】（[wiki](https://github.com/agalwood/Motrix/wiki)）
-* [aria2](https://github.com/aria2/aria2) - aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.【可以分段下载】
+* [pypdf](https://github.com/py-pdf/pypdf) - A pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files【读写PDF】 `Python`
+* [mdict-query](https://github.com/mmjang/mdict-query) - A python module for looking up mdict dictionary file (.mdx and .mdd).【Python 模块，读取 mdict 字典】 `Python`
+* [chinese-xinhua](https://github.com/pwxcoo/chinese-xinhua) - 中华新华字典数据库。包括歇后语，成语，词语，汉字。 `json`
+* [hujiang_dictionary](https://github.com/Asutorufa/hujiang_dictionary) - 日本語辞書 `go` `json`
+* [ViveInputUtility-Unity](https://github.com/ViveSoftware/ViveInputUtility-Unity) - A toolkit that helps developing/prototyping VR apps.【VR 应用开发依赖】 `unity` `c#`
 
-  * [AriaNg](https://github.com/mayswind/AriaNg) - AriaNg, a modern web frontend making aria2 easier to use.【Aria2 前端】
-    * [aria-ng-gui-android](https://github.com/Xmader/aria-ng-gui-android) - 一个 Aria2 图形界面安卓客户端 | An Aria2 GUI Android App
-    * [aria2-ariang-x-docker-compose](https://github.com/wahyd4/aria2-ariang-x-docker-compose) - Docker compose files for Aria2+ AriaNg+ filerun/ Nextcloud/ h5ai + Plex. 图形化BT，磁力，离线下载，文件管理，播放，投屏
-  * [webui-aria2](https://github.com/ziahamza/webui-aria2) - The aim for this project is to create the worlds best and hottest interface to interact with aria2. Very simple to use, just download and open index.html in any web browser.【Aria2 前端，但太老了】
-* [qBittorrent](https://github.com/qbittorrent/qBittorrent) - qBittorrent BitTorrent client【BT客户端，支持插件搜索种子】
-* * [qBittorrent-Enhanced-Edition](https://github.com/c0re100/qBittorrent-Enhanced-Edition) - [Unofficial] qBittorrent Enhanced, based on qBittorrent【原版增强，添加了自动更新tracker和屏蔽吸血客户端等功能，当前使用版本】
-  * [search-plugins](https://github.com/qbittorrent/search-plugins) - Search plugins for the search feature【官方搜索插件库】
-  * [trackerslist](https://github.com/ngosang/trackerslist) - Updated list of public BitTorrent trackers
-  * [AutoAnimeMv](https://github.com/AutoAnimeMV-Teams/AutoAnimeMv) - 这是一个番剧自动识别剧名剧集+自动重命名+自动整理工具,用来配合QBittorrent实现Rss订阅下载全自动刮削一条龙到家式爽歪歪服务!
-* [webtorrent](https://github.com/webtorrent/webtorrent) - Streaming torrent client for the web【Web 版BT客户端】
+### 文档 API
 
-#### 其他
+**[`^        back to top        ^`](#project-collection)**
 
-* [alist](https://github.com/alist-org/alist) - 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
+* [bangumi](https://github.com/bangumi/api) - Build your app on Bangumi
+  * [scripts](https://github.com/bangumi/scripts) - Userscripts for Bangumi / 用于 Bangumi 的用户脚本
 
-### Windows
+## 桌面端软件程序
 
-* [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) - A Windows and Office activator using HWID / Ohook / KMS38 / Online KMS activation methods, with a focus on open-source code and fewer antivirus detections.【Windows 和Office 一键激活】（document）
+**[`^        back to top        ^`](#project-collection)**
+
+指PC上用的软件，一般是windows，支持多种操作系统的用`跨平台`标记
+
+### 操作系统相关
+
+**[`^        back to top        ^`](#project-collection)**
+
+* [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) - A Windows and Office activator using HWID / Ohook / KMS38 / Online KMS activation methods, with a focus on open-source code and fewer antivirus detections.【Windows 和Office 一键激活】（[document](https://massgrave.dev/)） `win`
   * 在 PowerShell 中运行以下代码： `irm https://get.activated.win | iex`
   * 系统镜像下载：[https://massgrave.dev/genuine-installation-media](https://massgrave.dev/genuine-installation-media)
-* [Office-Tool](https://github.com/YerongAI/Office-Tool) - Office Tool Plus localization projects.【Office 安装工具，可使用PowerShell代码安装： `irm https://otp.landian.vip/get/ | iex`，或：`irm https://officetool.plus/get/ | iex`】（[官网](https://otp.landian.vip/)，[document](https://otp.landian.vip/help/)，[wiki](https://github.com/YerongAI/Office-Tool/wiki)）
-* [Wox](https://github.com/Wox-launcher/Wox) - A cross-platform launcher that simply works【快速启动器，实际上只支持Windows和IOS】
-* [FileConverter](https://github.com/Tichau/FileConverter) - File Converter is a very simple tool which allows you to convert and compress files using the context menu in windows explorer.【文件格式转换器】
-* [waifu2x](https://github.com/nagadomi/waifu2x) - Image Super-Resolution for Anime-Style Art【图片扩大】
-* [ZyPlayer](https://github.com/Hiram-Wong/ZyPlayer) - 跨平台桌面端视频资源播放器,免费高颜值.【在已停止维护的原版 [ZY-Player](https://github.com/Hunlongyu/ZY-Player) 的基础上维护】
+* [vlmcsd](https://github.com/Wind4/vlmcsd) - KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin)【KMS激活服务】 `win`
+
+### 日常办公
+
+**[`^        back to top        ^`](#project-collection)**
+
+* [Office-Tool](https://github.com/YerongAI/Office-Tool) - Office Tool Plus localization projects.【Office 安装工具，可使用PowerShell代码安装： `irm https://otp.landian.vip/get/ | iex`，或：`irm https://officetool.plus/get/ | iex`】（[官网](https://otp.landian.vip/)，[document](https://otp.landian.vip/help/)，[wiki](https://github.com/YerongAI/Office-Tool/wiki)） `win`
+* [Wox](https://github.com/Wox-launcher/Wox) - A cross-platform launcher that simply works【快速启动器，实际上只支持Windows和MacOS】 `win` `mac`
+* [FileConverter](https://github.com/Tichau/FileConverter) - File Converter is a very simple tool which allows you to convert and compress files using the context menu in windows explorer.【文件格式转换器】 `win`
+
+### 图像影音
+
+**[`^        back to top        ^`](#project-collection)**
+
+* [xbmc](https://github.com/xbmc/xbmc) - Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media.【已改名 Kodi，全平台多功能播放器，可刷为电视系统】 `跨平台` `跨终端` `win` `linux` `mac` `android` `ios` `tvOS` `webOS`
+* [miru-app](https://github.com/miru-project/miru-app) - A versatile application that is free, open-source, and supports extension sources for videos, comics, and novels, available on Android, Windows, and Web platforms.【视频、小说、漫画整合】 `跨平台` `跨终端` `win` `android` `web`
+* [miru](https://github.com/ThaUnknown/miru) - Bittorrent streaming software for cats. Stream anime torrents, real-time with no waiting for downloads.【通过BT实时在线播放动画】 `跨平台` `win` `linux` `mac`
+* [Kazumi](https://github.com/Predidit/Kazumi) - 基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕。 `跨平台` `跨终端` `win` `linux` `mac` `android` `ios`
+  * [KazumiRules](https://github.com/Predidit/KazumiRules) - Kazumi的规则托管仓库
+* [lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) - 一个基于 electron 的音乐软件【洛雪音乐助手桌面版】（[document](https://lyswhut.github.io/lx-music-doc/)，网盘下载 [https://www.lanzoui.com/b0bf2cfa/](https://www.lanzoui.com/b0bf2cfa/) 密码：`glqw`） `win`
+* [ZyPlayer](https://github.com/Hiram-Wong/ZyPlayer) - 跨平台桌面端视频资源播放器,免费高颜值.【在已停止维护的原版 [ZY-Player](https://github.com/Hunlongyu/ZY-Player) 的基础上维护】 `win`
   * [https://github.com/ls125781003/dmtg](https://github.com/ls125781003/dmtg)
   * [zy-player_kkplayer_18-resource](https://github.com/vfdeclnc/zy-player_kkplayer_18-resource) - zyplayer，KK Player，视频资源站
-* [MoeLoader-Delta](https://github.com/usaginya/MoeLoader-Delta) - Improved branching version of MoeLoader【图片批量下载器】
-* [Pixeval](https://github.com/Pixeval/Pixeval) - Wow. Yet another Pixiv client!【无需代理的Pixiv桌面客户端】
+* [Pixeval](https://github.com/Pixeval/Pixeval) - Wow. Yet another Pixiv client!【无需代理的Pixiv桌面客户端】 `win`
+* [pikapika](https://github.com/niuhuan/pikapika) - 美观易用且无广告的漫画和游戏客户端，同时支持MacOS，Windows，Android，iOS。【哔咔客户端】 `win` `mac` `android` `ios`
+* [waifu2x](https://github.com/nagadomi/waifu2x) - Image Super-Resolution for Anime-Style Art【图片扩大】 `web`
+  * [waifu2x-caffe](https://github.com/lltcggie/waifu2x-caffe) `win`
+  * [waifu2x-ncnn-vulkan](https://github.com/nihui/waifu2x-ncnn-vulkan) - 【仅支持 NVIDA 显卡】 `win` `ubuntu` `mac`
 
-### Android
+### 下载工具
 
-#### 玩机
+**[`^        back to top        ^`](#project-collection)**
 
-* [Shizuku](https://github.com/RikkaApps/Shizuku) - Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.【通过ADB获得应用修改权限】
+* [Motrix](https://github.com/agalwood/Motrix) - A full-featured download manager.【什么都能下，但是很久没维护了】（[wiki](https://github.com/agalwood/Motrix/wiki)） `跨平台` `win` `linux` `mac`
+* [aria2](https://github.com/aria2/aria2) - aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.【可以分段下载】 `跨平台` `win` `linux`
 
-#### 娱乐软件
+  * [AriaNg](https://github.com/mayswind/AriaNg) - AriaNg, a modern web frontend making aria2 easier to use.【Aria2 前端】 `web`
+    * [aria-ng-gui-android](https://github.com/Xmader/aria-ng-gui-android) - 一个 Aria2 图形界面安卓客户端 | An Aria2 GUI Android App `android`
+    * [aria2-ariang-x-docker-compose](https://github.com/wahyd4/aria2-ariang-x-docker-compose) - Docker compose files for Aria2+ AriaNg+ filerun/ Nextcloud/ h5ai + Plex. 图形化BT，磁力，离线下载，文件管理，播放，投屏 `web`
+  * [webui-aria2](https://github.com/ziahamza/webui-aria2) - The aim for this project is to create the worlds best and hottest interface to interact with aria2. Very simple to use, just download and open index.html in any web browser.【Aria2 前端，但太老了】 `web`
+* [qBittorrent](https://github.com/qbittorrent/qBittorrent) - qBittorrent BitTorrent client【BT客户端，支持插件搜索种子】 `跨平台` `win` `linux` `mac` `web`
+* * [qBittorrent-Enhanced-Edition](https://github.com/c0re100/qBittorrent-Enhanced-Edition) - [Unofficial] qBittorrent Enhanced, based on qBittorrent【原版增强，添加了自动更新tracker和屏蔽吸血客户端等功能，当前使用版本】 `跨平台` `win` `linux` `mac` `web`
+  * [search-plugins](https://github.com/qbittorrent/search-plugins) - Search plugins for the search feature【官方搜索插件库，需要Python】 `python`
+  * [trackerslist](https://github.com/ngosang/trackerslist) - Updated list of public BitTorrent trackers
+  * [AutoAnimeMv](https://github.com/AutoAnimeMV-Teams/AutoAnimeMv) - 这是一个番剧自动识别剧名剧集+自动重命名+自动整理工具,用来配合QBittorrent实现Rss订阅下载全自动刮削一条龙到家式爽歪歪服务! `python`
+* [webtorrent](https://github.com/webtorrent/webtorrent) - Streaming torrent client for the web【Web 版BT客户端】 `web`
+* [MoeLoader-Delta](https://github.com/usaginya/MoeLoader-Delta) - Improved branching version of MoeLoader【图片批量下载器】 `win`
 
-* [mihon](https://github.com/mihonapp/mihon)(Tachiyomi) - Free and open source manga reader for Android
-  * [Suwayomi](https://github.com/Suwayomi/Suwayomi-Server) - A rewrite of Tachiyomi for the Desktop【桌面版 Tachiyomi】
-  * [extensions](https://github.com/keiyoushi/extensions) - Source extensions for the Mihon/Tachiyomi app.【非官方社区插件库】
-  * [copymanga](https://github.com/stevenyomi/copymanga) - CopyManga extension for Tachiyomi.【拷贝漫画插件】
-* [Aniyomi](https://github.com/aniyomiorg/aniyomi) - An app for manga and anime【可看漫画和动画，拥有大量插件】
-  * [aniyomi-extensions](https://github.com/aniyomiorg/aniyomi-extensions) - Source extensions for the Aniyomi app.【Aniyomi 官方扩展插件库】
-  * [extensions-source](https://github.com/Kohi-den/extensions-source) - Source code of extensions for Aniyomi and forks【Aniyomi 扩展插件库非官方备份】
-* [MusicFree](https://github.com/maotoumao/MusicFree) - 插件化、定制化、无广告的免费音乐播放器（[桌面版](https://github.com/maotoumao/MusicFreeDesktop)，[插件库](https://github.com/maotoumao/MusicFreePlugins)）【可以把 github 换成 gitee】
+## 移动端应用程序
 
-#### 无内鬼，来点色图
+**[`^        back to top        ^`](#project-collection)**
 
-* [pixez-flutter](https://github.com/Notsfsssf/pixez-flutter) - 一个支持免代理直连及查看动图的第三方Pixiv flutter客户端
-  * [Pix-EzViewer](https://github.com/Notsfsssf/Pix-EzViewer) - 【已停止维护的老版本】
-* [EhViewer](https://github.com/seven332/EhViewer) - [DEPRECATED] An Unofficial E-Hentai Application for Android【原版，已停止维护】
-  * [Ehviewer_CN_SXJ](https://github.com/xiaojieonly/Ehviewer_CN_SXJ) - ehviewer，用爱发电，快乐前行【改版1】
-* [Boorusama](https://github.com/khoadng/Boorusama) - A mobile client for booru sites built with Flutter【Booru类网站手机客户端】
-* [Konachan](https://github.com/EternalSoySauce/Konachan) - 百度云盘链接: [https://pan.baidu.com/s/1KjQwggPNt5itRxstjHTHTg?pwd=patb](https://pan.baidu.com/s/1KjQwggPNt5itRxstjHTHTg?pwd=patb) 提取码: `patb`【Konachan 第三方客户端，同时支持一些别的Booru网站】
-* [H-Viewer](https://github.com/PureDark/H-Viewer) - An android feed reader application which fetch data with selector and regular expression.【已停止维护】
+没强调就是Android
 
-### Android TV
+### 玩机
 
-* [my-tv](https://github.com/lizongying/my-tv) - 我的电视 电视直播软件，安装即可使用【已停止维护，新接手人在[论坛](https://www.zeppos.tech/t/topic/2821?u=sober)发布】
-* [CCTV_Viewer](https://github.com/Eanya-Tonic/CCTV_Viewer) - 电视浏览器，一款基于tv.cctv.com和央视频的简易电视直播收看软件，用于方便的在机顶盒上收看电视节目
+**[`^        back to top        ^`](#project-collection)**
 
-### Raspberry Pi
+* [Shizuku](https://github.com/RikkaApps/Shizuku) - Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.【通过ADB获得应用修改权限】 `android`
 
-* [awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi) - A curated list of awesome Raspberry Pi tools, projects, images and resources【树莓派相关的工具、项目、资源列表】
-* [rpi-backup](https://github.com/nanhantianyi/rpi-backup) - raspberry pi backup，树莓派系统备份，最小镜像备份
-* [OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi) - Raspberry Pi & NanoPi R2S/R4S & G-Dock & x86 OpenWrt Compile Project. (Based on Github Action / Daily Update)【编译树莓派可用的 OpenWrt 固件】
-* [raspap-webgui](https://github.com/RaspAP/raspap-webgui) - Simple wireless AP setup & management for Debian-based devices【树莓派专用 Web版 WiFi 控制】
-* [nextcloudpi](https://github.com/nextcloud/nextcloudpi) - 【树莓派用的 Nextcloud，非常缓慢，会爆内存】
+### 音乐视频漫画
+
+**[`^        back to top        ^`](#project-collection)**
+
+* [xbmc](https://github.com/xbmc/xbmc) - Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media.【已改名 Kodi，全平台多功能播放器，可刷为电视系统】 `跨平台` `跨终端` `win` `linux` `mac` `android` `ios` `tvOS` `webOS`
+* [miru-app](https://github.com/miru-project/miru-app) - A versatile application that is free, open-source, and supports extension sources for videos, comics, and novels, available on Android, Windows, and Web platforms.【视频、小说、漫画整合】 `跨平台` `跨终端` `win` `android` `web`
+* [Kazumi](https://github.com/Predidit/Kazumi) - 基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕。 `跨平台` `跨终端` `win` `linux` `mac` `android` `ios`
+  * [KazumiRules](https://github.com/Predidit/KazumiRules) - Kazumi的规则托管仓库
+* [mihon](https://github.com/mihonapp/mihon)(Tachiyomi) - Free and open source manga reader for Android `android`
+  * [Suwayomi](https://github.com/Suwayomi/Suwayomi-Server) - A rewrite of Tachiyomi for the Desktop【桌面版与服务器版 Tachiyomi】 `win` `linux` `mac` `web`
+  * [extensions](https://github.com/keiyoushi/extensions) - Source extensions for the Mihon/Tachiyomi app.【非官方社区插件库】 `android`
+  * [copymanga](https://github.com/stevenyomi/copymanga) - CopyManga extension for Tachiyomi.【拷贝漫画插件】 `android`
+* [Aniyomi](https://github.com/aniyomiorg/aniyomi) - An app for manga and anime【可看漫画和动画，拥有大量插件】 `android`
+  * [aniyomi-extensions](https://github.com/aniyomiorg/aniyomi-extensions) - Source extensions for the Aniyomi app.【Aniyomi 官方扩展插件库】 `android`
+  * [extensions-source](https://github.com/Kohi-den/extensions-source) - Source code of extensions for Aniyomi and forks【Aniyomi 扩展插件库非官方备份】 `android`
+* [MusicFree](https://github.com/maotoumao/MusicFree) - 插件化、定制化、无广告的免费音乐播放器（[桌面版](https://github.com/maotoumao/MusicFreeDesktop)，[插件库](https://github.com/maotoumao/MusicFreePlugins)）【可以把 github 换成 gitee】 `android`
+
+### 图片浏览
+
+**[`^        back to top        ^`](#project-collection)**
+
+无内鬼，来点色图
+
+* [pixez-flutter](https://github.com/Notsfsssf/pixez-flutter) - 一个支持免代理直连及查看动图的第三方Pixiv flutter客户端 `android` `ios`
+  * [Pix-EzViewer](https://github.com/Notsfsssf/Pix-EzViewer) - 【已停止维护的老版本】 `android`
+* [EhViewer](https://github.com/seven332/EhViewer) - [DEPRECATED] An Unofficial E-Hentai Application for Android【原版，已停止维护】 `android`
+  * [Ehviewer_CN_SXJ](https://github.com/xiaojieonly/Ehviewer_CN_SXJ) - ehviewer，用爱发电，快乐前行【改版1】 `android`
+  * [Ehviewer](https://github.com/Ehviewer-Overhauled/Ehviewer) - EhViewer overhauled with Material Design 3, Jetpack Compose and more【彩色改版，与原版数据库不完全兼容，已停止维护】 `android`
+  * [Ehviewer](https://github.com/FooIbar/EhViewer) - EhViewer overhauled with Material Design 3, Jetpack Compose and more【彩色改版的后续维护版，与原版数据库不完全兼容】 `android`
+* [pikapika](https://github.com/niuhuan/pikapika) - 美观易用且无广告的漫画和游戏客户端，同时支持MacOS，Windows，Android，iOS。【哔咔客户端】 `win` `mac` `android` `ios`
+* [Boorusama](https://github.com/khoadng/Boorusama) - A mobile client for booru sites built with Flutter【Booru类网站手机客户端】 `android`
+* [Konachan](https://github.com/EternalSoySauce/Konachan) - 百度云盘链接: [https://pan.baidu.com/s/1KjQwggPNt5itRxstjHTHTg?pwd=patb](https://pan.baidu.com/s/1KjQwggPNt5itRxstjHTHTg?pwd=patb) 提取码: `patb`【Konachan 第三方客户端，同时支持一些别的Booru网站】 `android`
+* [H-Viewer](https://github.com/PureDark/H-Viewer) - An android feed reader application which fetch data with selector and regular expression.【已停止维护】 `android`
+
+## 电视端应用程序
+
+**[`^        back to top        ^`](#project-collection)**
+
+指 Android TV
+
+* [my-tv](https://github.com/lizongying/my-tv) - 我的电视 电视直播软件，安装即可使用【已停止维护，新接手人在[论坛](https://www.zeppos.tech/t/topic/2821?u=sober)发布】 `android`
+* [CCTV_Viewer](https://github.com/Eanya-Tonic/CCTV_Viewer) - 电视浏览器，一款基于tv.cctv.com和央视频的简易电视直播收看软件，用于方便的在机顶盒上收看电视节目 `android`
 
 ## 扩展插件
 
 ### Xposed框架
 
+**[`^        back to top        ^`](#project-collection)**
+
 * [BiliRoaming](https://github.com/yujincheng08/BiliRoaming) - 哔哩漫游，解除B站客户端番剧区域限制的Xposed模块，并且提供其他小功能。An Xposed module that unblocks bangumi area limit of BILIBILI with miscellaneous features.
 
 ### Chromium内核浏览器
 
-* [yandere-masonry](https://github.com/asadahimeka/yandere-masonry) - Yande.re/Konachan Masonry(Waterfall) Layout. Yande.re/Konachan 中文标签 & 缩略图放大 & 双击翻页 & 瀑布流浏览
+**[`^        back to top        ^`](#project-collection)**
+
 * [webextension-pixiv-toolkit](https://github.com/leoding86/webextension-pixiv-toolkit) - A web extension for Pixiv【Pixiv插件】
 
 ### Firefox浏览器
+
+**[`^        back to top        ^`](#project-collection)**
 
 * [webextensions-examples](https://github.com/mdn/webextensions-examples) - Example Firefox add-ons created using the WebExtensions API【火狐插件示例】
 
 ### 油猴脚本
 
+**[`^        back to top        ^`](#project-collection)**
+
+* [yandere-masonry](https://github.com/asadahimeka/yandere-masonry) - Yande.re/Konachan Masonry(Waterfall) Layout. Yande.re/Konachan 中文标签 & 缩略图放大 & 双击翻页 & 瀑布流浏览
 * [PixivUserBatchDownload](https://github.com/Mapaler/PixivUserBatchDownload) - P站画师个人作品批量下载工具，UserScript + Aria2。可高度自定义重命名，发送到本地或远程(如路由器)下载
 
 ### VSCode
 
-* [translation-assistant](https://github.com/jsc6924/translation-assistant) - A VSCode extension that is used for assisting translation work.【双行文本翻译解决方案，实现比较简单粗暴，】
+**[`^        back to top        ^`](#project-collection)**
+
+* [translation-assistant](https://github.com/jsc6924/translation-assistant) - A VSCode extension that is used for assisting translation work.【双行文本翻译解决方案，已经非常完善了】
 
 ## 游戏工具
 
 ### 游戏
+
+**[`^        back to top        ^`](#project-collection)**
 
 * [Galgame-Engine-Collect](https://github.com/2439905184/Galgame-Engine-Collect) - 关于视觉小说的一切，争取打造全网最全的资料库
 * krkr游戏引擎
@@ -156,11 +271,15 @@
 
 ### 机翻工具
 
+**[`^        back to top        ^`](#project-collection)**
+
 近些年新出不少工具，但没怎么关注过了
 
 * [YUKI](https://github.com/project-yuki/YUKI) - YUKI Galgame Translator
 
 ### 拆包工具
+
+**[`^        back to top        ^`](#project-collection)**
 
 * [FuckGalEngine](https://github.com/Inori/FuckGalEngine) - My tools to crack galgame【破解拆包工具整合】
 * [SiglusExtract](https://github.com/xmoezzz/SiglusExtract) - SiglusExtract : A tool that can extract almost all resources used by SiglusEngine and repack some of them for translation.【Key 社游戏拆包】
@@ -172,11 +291,15 @@
 * [UnityLive2DExtractor](https://github.com/Perfare/UnityLive2DExtractor) - Unity Live2D Cubism 3 Extractor【从 Unity 引擎开发的游戏中提取 Live2D 文件】
 * [repkg](https://github.com/notscuffed/repkg) - Wallpaper engine PKG extractor/TEX to image converter【Wallpaper engine 拆包】
 
-## Selfhosted
+## 服务端应用
+
+**[`^        back to top        ^`](#project-collection)**
 
 可自行搭建部署的服务
 
 ### 个人导航
+
+**[`^        back to top        ^`](#project-collection)**
 
 静态网页部署可使用 [GitHub Pages](https://pages.github.com)、[Cloudflare Pages](https://www.cloudflare-cn.com)、[Vercel](https://vercel.com)、[Netlify](https://app.netlify.com)、[Render](https://dashboard.render.com) 等免费服务
 
@@ -188,13 +311,19 @@
 
 ### 管理工具
 
+**[`^        back to top        ^`](#project-collection)**
+
 * [nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) - Docker container for managing Nginx proxy hosts with a simple, powerful interface【Nginx 图形化管理工具】
 
 ### 个人网站
 
+**[`^        back to top        ^`](#project-collection)**
+
 * [WordPress](https://github.com/WordPress/WordPress) - 【综合性内容管理网站】
 
 ### 文件存储
+
+**[`^        back to top        ^`](#project-collection)**
 
 * [alist](https://github.com/alist-org/alist) - 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
 * [syncthing](https://github.com/syncthing/syncthing) - Open Source Continuous File Synchronization【文件云同步，Windows推荐使用 [SyncTrayzor](https://github.com/canton7/SyncTrayzor)】
@@ -202,6 +331,8 @@
 * [spacedrive](https://github.com/spacedriveapp/spacedrive) - Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.【尚未发布正式版】
 
 ### 离线下载
+
+**[`^        back to top        ^`](#project-collection)**
 
 * [cloud-torrent](https://github.com/jpillora/cloud-torrent) - Cloud Torrent: a self-hosted remote torrent client
 * [aria2](https://github.com/aria2/aria2) - aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.【可以分段下载】
@@ -217,15 +348,23 @@
 
 ### 相册
 
+**[`^        back to top        ^`](#project-collection)**
+
 * [LibrePhotos](https://github.com/LibrePhotos/librephotos) - A self-hosted open source photo management service. This is the repository of the backend.（[demo](https://demo1.librephotos.com/ "User is demo, password is demo1234") [`demo`: `demo1234`]，[document](https://docs.librephotos.com/docs/installation/standard-install)）
 
 ### 音乐
 
+**[`^        back to top        ^`](#project-collection)**
+
 ### 书籍
+
+**[`^        back to top        ^`](#project-collection)**
 
 * [talebook](https://github.com/talebook/talebook) - A simple books website. 一个简单的在线版个人书库。【基于Calibre】
 
 ### 视频
+
+**[`^        back to top        ^`](#project-collection)**
 
 * [jellyfin](https://github.com/jellyfin/jellyfin) - The Free Software Media System【当前正在使用的开源媒体库】
 * [Emby](https://github.com/MediaBrowser/Emby) - Emby Server is a personal media server with apps on just about every device.【开源媒体库】
@@ -236,12 +375,16 @@
 
 #### 直播源
 
+**[`^        back to top        ^`](#project-collection)**
+
 * [alist-tvbox](https://github.com/power721/alist-tvbox) - AList proxy server for TvBox, support playlist and search.【集成小雅AList】
 * [iptv](https://github.com/iptv-org/iptv) - Collection of publicly available IPTV channels from all over the world【很全但是一般不好用】（[https://iptv-org.github.io](https://iptv-org.github.io/)）
 * [iptv-sources](https://github.com/HerbertHe/iptv-sources) - Autoupdate iptv sources【自动更新IPTV直播源】
 * [MyIPTV](https://github.com/SPX372928/MyIPTV) - 标准协议移动直播源
 
 ### 漫画与图片板
+
+**[`^        back to top        ^`](#project-collection)**
 
 Danbooru为主
 
@@ -251,7 +394,9 @@ Danbooru为主
 * [szurubooru](https://github.com/rr-/szurubooru) - Image board engine, Danbooru-style.
 * [shimmie2](https://github.com/shish/shimmie2) - An easy-to-install community image gallery (aka booru)【可一键部署的Booru网站】
 
-### 便捷工具
+### Web 工具
+
+**[`^        back to top        ^`](#project-collection)**
 
 * [vlmcsd](https://github.com/Wind4/vlmcsd) - KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin)【KMS激活服务】
 * [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) - Locally hosted web application that allows you to perform various operations on PDF files【PDF编辑工具】
@@ -259,6 +404,8 @@ Danbooru为主
 * [keeweb](https://github.com/keeweb/keeweb) - Free cross-platform password manager compatible with KeePass【密码管理工具 Web 版】
 
 ### 大型玩具
+
+**[`^        back to top        ^`](#project-collection)**
 
 * [koishi](https://github.com/koishijs/koishi) - Koishi 是一个跨平台、可扩展、高性能的聊天机器人框架。【基于古明地恋命名的QQ机器人】（[document](https://koishi.chat/manual/starter/)）
 * [mirai](https://github.com/mamoe/mirai) - 高效率 QQ 机器人支持库【基于初音未来命名的QQ机器人】（[document](https://github.com/mamoe/mirai/blob/dev/docs/UserManual.md)）
@@ -268,31 +415,21 @@ Danbooru为主
   * [ejabberd](https://github.com/processone/ejabberd) - Robust, Ubiquitous and Massively Scalable Messaging Platform (XMPP, MQTT, SIP Server)【即时聊天服务】
   * [Openfire](https://github.com/igniterealtime/Openfire) - An XMPP server licensed under the Open Source Apache License.【XMPP 客户端】
 
-## 代码编程
+## Raspberry Pi
 
-### 素材库
+**[`^        back to top        ^`](#project-collection)**
 
-* [MaterialDesignInXamlToolkit](https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit) - Google's Material Design in XAML & WPF, for C# & VB.Net.
-* [Free-Chinese-Fonts](https://github.com/zenozeng/Free-Chinese-Fonts) - 免费中文字体
-* [Sarasa-Gothic](https://github.com/be5invis/Sarasa-Gothic) - Sarasa Gothic / 更纱黑体 / 更紗黑體 / 更紗ゴシック / 사라사 고딕【字体】
-* [dashboard-icons](https://github.com/walkxcode/dashboard-icons) - The best source for dashboard icons.【仪表盘图标】
-
-### 环境依赖
-
-* [pypdf](https://github.com/py-pdf/pypdf) - A pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files【读写PDF】
-* [mdict-query](https://github.com/mmjang/mdict-query) - A python module for looking up mdict dictionary file (.mdx and .mdd).【Python 模块，读取 mdict 字典】`Python`
-* [chinese-xinhua](https://github.com/pwxcoo/chinese-xinhua) - 中华新华字典数据库。包括歇后语，成语，词语，汉字。
-* [hujiang_dictionary](https://github.com/Asutorufa/hujiang_dictionary) - 日本語辞書
-* [ViveInputUtility-Unity](https://github.com/ViveSoftware/ViveInputUtility-Unity) - A toolkit that helps developing/prototyping VR apps.【VR 应用开发依赖】
-
-### 文档API
-
-* [bangumi](https://github.com/bangumi/api) - Build your app on Bangumi
-  * [scripts](https://github.com/bangumi/scripts) - Userscripts for Bangumi / 用于 Bangumi 的用户脚本
+* [awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi) - A curated list of awesome Raspberry Pi tools, projects, images and resources【树莓派相关的工具、项目、资源列表】
+* [rpi-backup](https://github.com/nanhantianyi/rpi-backup) - raspberry pi backup，树莓派系统备份，最小镜像备份
+* [OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi) - Raspberry Pi & NanoPi R2S/R4S & G-Dock & x86 OpenWrt Compile Project. (Based on Github Action / Daily Update)【编译树莓派可用的 OpenWrt 固件】
+* [raspap-webgui](https://github.com/RaspAP/raspap-webgui) - Simple wireless AP setup & management for Debian-based devices【树莓派专用 Web版 WiFi 控制】
+* [nextcloudpi](https://github.com/nextcloud/nextcloudpi) - 【树莓派用的 Nextcloud，非常缓慢，会爆内存】
 
 ## 科学上网
 
 ### 路由
+
+**[`^        back to top        ^`](#project-collection)**
 
 自编译路由器固件相关项目
 
@@ -310,13 +447,19 @@ Danbooru为主
 
 ### 内网穿透
 
+**[`^        back to top        ^`](#project-collection)**
+
 * [frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.【最常用方案】
 
 ### 异地组网
 
+**[`^        back to top        ^`](#project-collection)**
+
 * [ZeroTierOne](https://github.com/zerotier/ZeroTierOne) - A Smart Ethernet Switch for Earth【目前在用】（[官网](https://zerotier.com/)，[document](https://docs.zerotier.com/)）
 
 ### 代理
+
+**[`^        back to top        ^`](#project-collection)**
 
 一些已经被淘汰掉过时的东西，留个纪念
 
@@ -336,6 +479,8 @@ Danbooru为主
 * [Pixiv-Nginx](https://github.com/mashirozx/Pixiv-Nginx) - P站（Pixiv）的正确打开方式【本地反向代理】
 
 ## Github的奇怪用法
+
+**[`^        back to top        ^`](#project-collection)**
 
 总归也是需要版本控制的吧
 
